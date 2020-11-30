@@ -1,0 +1,104 @@
+@import "reset.css";
+        #box{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #box #header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            padding:0 24px;
+            height: 60px;
+            box-sizing: border-box;
+        }
+
+        #header .headerLeft{
+            height: 100%;
+            width: 440px;
+        }
+
+        #header .headerLeft ul{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        #header .headerLeft ul li{
+            text-align: center;
+            height: 100%;
+            line-height: 60px;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        #header .headerLeft ul li a{
+            color: #000;
+        }
+
+        #header .headerLeft ul li a:hover{
+            color:blue;
+        }
+
+        #box #container .image {
+            height: 190px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box #container .image img{
+            width: 320px;
+            height: 160px;
+        }
+
+        #box #container .searchContent{
+            width: 656px;
+            height: 44px;
+            display: flex;
+            justify-content: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        
+        #box #container .searchContent .searchBox{
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+            border: 2px solid blue;
+            border-radius: 10px 0 0 10px;
+        }
+
+        #box #container .searchContent input{
+            font-size: 16px;
+            width: 548px;
+            height: 44px;
+            border: none;
+            outline: none;
+            line-height: 44px;
+            text-indent: 16px;
+            position: absolute;
+            z-index: 2;
+            background-color: transparent;
+        }
+
+        #box #container .searchContent button{
+            height: 44px;
+            width: 108px;
+            background:none;
+            background-color: blue;
+            line-height: 40px;
+            font-size: 18px;
+            font-weight: bold;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+
